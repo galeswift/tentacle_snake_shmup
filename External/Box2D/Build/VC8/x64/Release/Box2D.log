@@ -1,0 +1,9 @@
+﻿Build started 7/21/2016 11:04:51 PM.
+     1>Project "\\192.168.1.189\home\Projects\Tentacle Game\External\Box2D\Build\VC8\Box2D.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         Box2D.vcxproj -> \\192.168.1.189\home\Projects\Tentacle Game\x64\Release\Box2D.lib
+     1>Done Building Project "\\192.168.1.189\home\Projects\Tentacle Game\External\Box2D\Build\VC8\Box2D.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.60

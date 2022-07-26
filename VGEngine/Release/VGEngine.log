@@ -1,0 +1,102 @@
+﻿Build started 7/21/2016 11:05:56 PM.
+     1>Project "\\192.168.1.189\home\Projects\Tentacle Game\VGEngine\VGEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\External\SDL\include /I..\External\SDL\lib /I..\External\Box2d\Include\ /I..\External\glew\include\gl\ /IInc /I.\ /ICommon /IMisc /ICommon\2D /Zi /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Common\2D\Vector2d.cpp Common\fuzzy\FuzzyModule.cpp Common\fuzzy\FuzzyOperators.cpp Common\fuzzy\FuzzySet_LeftShoulder.cpp Common\fuzzy\FuzzySet_RightShoulder.cpp Common\fuzzy\FuzzySet_Singleton.cpp Common\fuzzy\FuzzySet_Triangle.cpp Common\fuzzy\FuzzyVariable.cpp Common\Game\BaseGameEntity.cpp Common\Game\EntityManager.cpp Common\Misc\FrameCounter.cpp Common\Misc\iniFileLoaderBase.cpp Common\Time\CrudeTimer.cpp Common\Time\PrecisionTimer.cpp Src\Anchor.cpp Src\ChaosObjects.cpp Src\ChaosStates.cpp Src\ChaosWeapons.cpp Src\Constraint.cpp Src\Main.cpp Src\Point.cpp Src\SimpleGame.cpp Src\VGCollision.cpp Src\VGEngine.cpp Src\VGEntities.cpp Src\VGPhutils.cpp Src\VGPhysics.cpp Src\VGRender.cpp Src\VGSound.cpp Src\VGStates.cpp Src\VGText.cpp
+         Vector2d.cpp
+     1>\\192.168.1.189\home\projects\tentacle game\vgengine\common\2d\Vector2D.h(69): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>\\192.168.1.189\home\projects\tentacle game\vgengine\common\2d\Vector2D.h(70): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>\\192.168.1.189\home\projects\tentacle game\vgengine\common\2d\Vector2D.h(80): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>\\192.168.1.189\home\projects\tentacle game\vgengine\common\2d\Vector2D.h(81): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         FuzzyModule.cpp
+         FuzzyOperators.cpp
+         FuzzySet_LeftShoulder.cpp
+         FuzzySet_RightShoulder.cpp
+         FuzzySet_Singleton.cpp
+         FuzzySet_Triangle.cpp
+         FuzzyVariable.cpp
+         BaseGameEntity.cpp
+     1>\\192.168.1.189\home\Projects\Tentacle Game\VGEngine\Common\2D/Vector2D.h(69): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>\\192.168.1.189\home\Projects\Tentacle Game\VGEngine\Common\2D/Vector2D.h(70): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>\\192.168.1.189\home\Projects\Tentacle Game\VGEngine\Common\2D/Vector2D.h(80): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>\\192.168.1.189\home\Projects\Tentacle Game\VGEngine\Common\2D/Vector2D.h(81): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         EntityManager.cpp
+     1>\\192.168.1.189\home\Projects\Tentacle Game\VGEngine\Common\2D/Vector2D.h(69): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>\\192.168.1.189\home\Projects\Tentacle Game\VGEngine\Common\2D/Vector2D.h(70): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>\\192.168.1.189\home\Projects\Tentacle Game\VGEngine\Common\2D/Vector2D.h(80): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>\\192.168.1.189\home\Projects\Tentacle Game\VGEngine\Common\2D/Vector2D.h(81): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         FrameCounter.cpp
+         iniFileLoaderBase.cpp
+     1>Common\Misc\iniFileLoaderBase.cpp(9): warning C4305: 'argument' : truncation from 'int' to 'char'
+     1>Common\Misc\iniFileLoaderBase.cpp(9): warning C4309: 'argument' : truncation of constant value
+     1>Common\Misc\iniFileLoaderBase.cpp(57): warning C4129: ';' : unrecognized character escape sequence
+     1>Common\Misc\iniFileLoaderBase.cpp(109): warning C4129: ';' : unrecognized character escape sequence
+         CrudeTimer.cpp
+         PrecisionTimer.cpp
+         Anchor.cpp
+         ChaosObjects.cpp
+     1>Src\ChaosObjects.cpp(454): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Src\ChaosObjects.cpp(458): warning C4305: 'argument' : truncation from 'double' to 'float'
+         ChaosStates.cpp
+     1>Src\ChaosStates.cpp(513): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         ChaosWeapons.cpp
+         Constraint.cpp
+         Main.cpp
+         Generating Code...
+         Compiling...
+         Point.cpp
+     1>Src\Point.cpp(55): warning C4305: 'argument' : truncation from 'double' to 'float'
+         SimpleGame.cpp
+         VGCollision.cpp
+         VGEngine.cpp
+     1>Src\VGEngine.cpp(643): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         VGEntities.cpp
+         VGPhutils.cpp
+         VGPhysics.cpp
+         VGRender.cpp
+         VGSound.cpp
+         VGStates.cpp
+         VGText.cpp
+         Generating Code...
+     1>\\192.168.1.189\home\projects\tentacle game\vgengine\src\vgengine.cpp(101): warning C4700: uninitialized local variable 'temp' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\192.168.1.189\home\Projects\Tentacle Game\Release\VGEngine.exe" /INCREMENTAL /NOLOGO ..\External\SDL\lib\SDL.lib ..\External\SDL\lib\SDLMain.lib ..\External\SDL\lib\SDL_Image.lib ..\External\SDL\lib\SDL_ttf.lib ..\External\SDL\lib\SDL_Mixer.lib ..\External\SDL\lib\sdlgfx.lib ..\External\Box2d\library\box2d.lib ..\External\Glew\lib\glew32.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\192.168.1.189\home\Projects\Tentacle Game\Release\VGEngine.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"\\192.168.1.189\home\Projects\Tentacle Game\Release\VGEngine.lib" /MACHINE:X86 /SAFESEH Release\Vector2d.obj
+         Release\FuzzyModule.obj
+         Release\FuzzyOperators.obj
+         Release\FuzzySet_LeftShoulder.obj
+         Release\FuzzySet_RightShoulder.obj
+         Release\FuzzySet_Singleton.obj
+         Release\FuzzySet_Triangle.obj
+         Release\FuzzyVariable.obj
+         Release\BaseGameEntity.obj
+         Release\EntityManager.obj
+         Release\FrameCounter.obj
+         Release\iniFileLoaderBase.obj
+         Release\CrudeTimer.obj
+         Release\PrecisionTimer.obj
+         Release\Anchor.obj
+         Release\ChaosObjects.obj
+         Release\ChaosStates.obj
+         Release\ChaosWeapons.obj
+         Release\Constraint.obj
+         Release\Main.obj
+         Release\Point.obj
+         Release\SimpleGame.obj
+         Release\VGCollision.obj
+         Release\VGEngine.obj
+         Release\VGEntities.obj
+         Release\VGPhutils.obj
+         Release\VGPhysics.obj
+         Release\VGRender.obj
+         Release\VGSound.obj
+         Release\VGStates.obj
+         Release\VGText.obj
+         "\\192.168.1.189\home\Projects\Tentacle Game\External\Box2D\Library\box2d.lib"
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+         VGEngine.vcxproj -> \\192.168.1.189\home\Projects\Tentacle Game\Release\VGEngine.exe
+     1>Done Building Project "\\192.168.1.189\home\Projects\Tentacle Game\VGEngine\VGEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:13.86

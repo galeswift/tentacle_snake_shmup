@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{107AAD4C-AFDE-4530-B2AB-3B8AEBE357C1}</ProjectGuid>
+    <RootNamespace>SDLTest</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.23107.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\External\SDL\include;..\External\SDL\lib;..\External\SDL\include\SGE;..\External\glew\include\GL;..\External\Box2d\include;Inc;.\;Common;Misc;Common\2D;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>..\External\SDL\lib\SDL.lib;..\External\SDL\lib\SDLMain.lib;..\External\SDL\lib\SDL_Image.lib;..\External\SDL\lib\SDL_ttf.lib;..\External\SDL\lib\SDL_Mixer.lib;..\External\Box2d\library\box2d_d.lib;..\External\SDL\lib\sdlgfx.lib;..\External\Glew\lib\glew32.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\External\SDL\include;..\External\SDL\lib;..\External\SDL\include\SGE;..\External\glew\include\GL;..\External\Box2d\include;Inc;.\;Common;Misc;Common\2D;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>..\External\SDL\lib\SDL.lib;..\External\SDL\lib\SDLMain.lib;..\External\SDL\lib\SDL_Image.lib;..\External\SDL\lib\SDL_ttf.lib;..\External\SDL\lib\SDL_Mixer.lib;..\External\Box2d\library\box2d_d.lib;..\External\SDL\lib\sdlgfx.lib;..\External\Glew\lib\glew32.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\External\SDL\include;..\External\SDL\lib;..\External\Box2d\Include\;..\External\glew\include\gl\;Inc;.\;Common;Misc;Common\2D;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>..\External\SDL\lib\SDL.lib;..\External\SDL\lib\SDLMain.lib;..\External\SDL\lib\SDL_Image.lib;..\External\SDL\lib\SDL_ttf.lib;..\External\SDL\lib\SDL_Mixer.lib;..\External\SDL\lib\sdlgfx.lib;..\External\Box2d\library\box2d.lib;..\External\Glew\lib\glew32.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\External\SDL\include;..\External\SDL\lib;..\External\Box2d\Include\;..\External\glew\include\gl\;Inc;.\;Common;Misc;Common\2D;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>..\External\SDL\lib\SDL.lib;..\External\SDL\lib\SDLMain.lib;..\External\SDL\lib\SDL_Image.lib;..\External\SDL\lib\SDL_ttf.lib;..\External\SDL\lib\SDL_Mixer.lib;..\External\SDL\lib\sdlgfx.lib;..\External\Box2d\library\box2d.lib;..\External\Glew\lib\glew32.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\2D\C2DMatrix.h" />
+    <ClInclude Include="Common\2D\geometry.h" />
+    <ClInclude Include="Common\2D\InvertedAABBox2D.h" />
+    <ClInclude Include="Common\2D\Transformations.h" />
+    <ClInclude Include="Common\2D\Vector2D.h" />
+    <ClInclude Include="Common\2D\Wall2D.h" />
+    <ClInclude Include="Common\2D\WallIntersectionTests.h" />
+    <ClInclude Include="Common\FSM\State.h" />
+    <ClInclude Include="Common\FSM\StateMachine.h" />
+    <ClInclude Include="Common\fuzzy\FuzzyHedges.h" />
+    <ClInclude Include="Common\fuzzy\FuzzyModule.h" />
+    <ClInclude Include="Common\fuzzy\FuzzyOperators.h" />
+    <ClInclude Include="Common\fuzzy\FuzzyRule.h" />
+    <ClInclude Include="Common\fuzzy\FuzzySet.h" />
+    <ClInclude Include="Common\fuzzy\FuzzySet_LeftShoulder.h" />
+    <ClInclude Include="Common\fuzzy\FuzzySet_RightShoulder.h" />
+    <ClInclude Include="Common\fuzzy\FuzzySet_Shoulder.h" />
+    <ClInclude Include="Common\fuzzy\FuzzySet_Singleton.h" />
+    <ClInclude Include="Common\fuzzy\FuzzySet_Triangle.h" />
+    <ClInclude Include="Common\fuzzy\FuzzyTerm.h" />
+    <ClInclude Include="Common\fuzzy\FuzzyVariable.h" />
+    <ClInclude Include="Common\fuzzy\FzSet.h" />
+    <ClInclude Include="Common\Game\BaseGameEntity.h" />
+    <ClInclude Include="Common\Game\EntityFunctionTemplates.h" />
+    <ClInclude Include="Common\Game\EntityManager.h" />
+    <ClInclude Include="Common\Game\MovingEntity.h" />
+    <ClInclude Include="Common\Game\Region.h" />
+    <ClInclude Include="Common\Goals\Goal.h" />
+    <ClInclude Include="Common\Goals\Goal_Composite.h" />
+    <ClInclude Include="Common\Graph\AStarHeuristicPolicies.h" />
+    <ClInclude Include="Common\Graph\GraphAlgorithms.h" />
+    <ClInclude Include="Common\Graph\GraphEdgeTypes.h" />
+    <ClInclude Include="Common\Graph\GraphNodeTypes.h" />
+    <ClInclude Include="Common\Graph\HandyGraphFunctions.h" />
+    <ClInclude Include="Common\Graph\NodeTypeEnumerations.h" />
+    <ClInclude Include="Common\Graph\SparseGraph.h" />
+    <ClInclude Include="Common\Misc\autolist.h" />
+    <ClInclude Include="Common\Misc\CellSpacePartition.h" />
+    <ClInclude Include="Common\Misc\ConsoleUtils.h" />
+    <ClInclude Include="Common\Misc\FrameCounter.h" />
+    <ClInclude Include="Common\Misc\iniFileLoaderBase.h" />
+    <ClInclude Include="Common\Misc\PriorityQueue.h" />
+    <ClInclude Include="Common\Misc\Smoother.h" />
+    <ClInclude Include="Common\Misc\Stream_Utility_Functions.h" />
+    <ClInclude Include="Common\Misc\TypeToString.h" />
+    <ClInclude Include="Common\Misc\utils.h" />
+    <ClInclude Include="Common\script\Scriptor.h" />
+    <ClInclude Include="Common\Time\CrudeTimer.h" />
+    <ClInclude Include="Common\Time\PrecisionTimer.h" />
+    <ClInclude Include="Common\Time\Regulator.h" />
+    <ClInclude Include="Common\Triggers\Trigger.h" />
+    <ClInclude Include="Common\Triggers\TriggerRegion.h" />
+    <ClInclude Include="Common\Triggers\TriggerSystem.h" />
+    <ClInclude Include="Common\Triggers\Trigger_LimitedLifeTime.h" />
+    <ClInclude Include="Common\Triggers\Trigger_Respawning.h" />
+    <ClInclude Include="Inc\ChaosGlobals.h" />
+    <ClInclude Include="Inc\ChaosObjects.h" />
+    <ClInclude Include="Inc\ChaosStates.h" />
+    <ClInclude Include="Inc\ChaosWeapons.h" />
+    <ClInclude Include="Inc\SimpleGame.h" />
+    <ClInclude Include="Inc\VGCollision.h" />
+    <ClInclude Include="Inc\VGEngine.h" />
+    <ClInclude Include="Inc\VGEntities.h" />
+    <ClInclude Include="Inc\VGGlobals.h" />
+    <ClInclude Include="Inc\VGPhutils.h" />
+    <ClInclude Include="Inc\VGPhysics.h" />
+    <ClInclude Include="Inc\VGRender.h" />
+    <ClInclude Include="Inc\VGShaders.h" />
+    <ClInclude Include="Inc\VGStates.h" />
+    <ClInclude Include="Inc\VGStorageClasses.h" />
+    <ClInclude Include="Src\Anchor.h" />
+    <ClInclude Include="Src\Constraint.h" />
+    <ClInclude Include="Src\Point.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\2D\Vector2d.cpp" />
+    <ClCompile Include="Common\fuzzy\FuzzyModule.cpp" />
+    <ClCompile Include="Common\fuzzy\FuzzyOperators.cpp" />
+    <ClCompile Include="Common\fuzzy\FuzzySet_LeftShoulder.cpp" />
+    <ClCompile Include="Common\fuzzy\FuzzySet_RightShoulder.cpp" />
+    <ClCompile Include="Common\fuzzy\FuzzySet_Singleton.cpp" />
+    <ClCompile Include="Common\fuzzy\FuzzySet_Triangle.cpp" />
+    <ClCompile Include="Common\fuzzy\FuzzyVariable.cpp" />
+    <ClCompile Include="Common\Game\BaseGameEntity.cpp" />
+    <ClCompile Include="Common\Game\EntityManager.cpp" />
+    <ClCompile Include="Common\Misc\FrameCounter.cpp" />
+    <ClCompile Include="Common\Misc\iniFileLoaderBase.cpp" />
+    <ClCompile Include="Common\Time\CrudeTimer.cpp" />
+    <ClCompile Include="Common\Time\PrecisionTimer.cpp" />
+    <ClCompile Include="Src\Anchor.cpp" />
+    <ClCompile Include="Src\ChaosObjects.cpp" />
+    <ClCompile Include="Src\ChaosStates.cpp" />
+    <ClCompile Include="Src\ChaosWeapons.cpp" />
+    <ClCompile Include="Src\Constraint.cpp" />
+    <ClCompile Include="Src\Main.cpp" />
+    <ClCompile Include="Src\Point.cpp" />
+    <ClCompile Include="Src\SimpleGame.cpp" />
+    <ClCompile Include="Src\VGCollision.cpp" />
+    <ClCompile Include="Src\VGEngine.cpp" />
+    <ClCompile Include="Src\VGEntities.cpp" />
+    <ClCompile Include="Src\VGPhutils.cpp" />
+    <ClCompile Include="Src\VGPhysics.cpp" />
+    <ClCompile Include="Src\VGRender.cpp" />
+    <ClCompile Include="Src\VGSound.cpp" />
+    <ClCompile Include="Src\VGStates.cpp" />
+    <ClCompile Include="Src\VGText.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\External\Box2D\Build\VC8\Box2D.vcxproj">
+      <Project>{7a2dfc3d-516a-471d-a215-bd40e5e5ad9a}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

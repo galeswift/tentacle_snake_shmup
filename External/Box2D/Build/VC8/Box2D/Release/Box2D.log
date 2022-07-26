@@ -1,0 +1,76 @@
+﻿Build started 7/21/2016 11:05:38 PM.
+     1>Project "\\192.168.1.189\home\Projects\Tentacle Game\External\Box2D\Build\VC8\Box2D.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Box2D/Release\\" /Fd"../../Library\box2d.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Source\Collision\b2BroadPhase.cpp ..\..\Source\Collision\b2CollideCircle.cpp ..\..\Source\Collision\b2CollidePoly.cpp ..\..\Source\Collision\b2Collision.cpp ..\..\Source\Collision\b2Distance.cpp ..\..\Source\Collision\b2PairManager.cpp ..\..\Source\Collision\b2TimeOfImpact.cpp ..\..\Source\Collision\Shapes\b2CircleShape.cpp ..\..\Source\Collision\Shapes\b2PolygonShape.cpp ..\..\Source\Collision\Shapes\b2Shape.cpp ..\..\Source\Common\b2BlockAllocator.cpp ..\..\Source\Common\b2Math.cpp ..\..\Source\Common\b2Settings.cpp ..\..\Source\Common\b2StackAllocator.cpp ..\..\Source\Dynamics\b2Body.cpp ..\..\Source\Dynamics\b2ContactManager.cpp ..\..\Source\Dynamics\b2Island.cpp ..\..\Source\Dynamics\b2World.cpp ..\..\Source\Dynamics\b2WorldCallbacks.cpp ..\..\Source\Dynamics\Contacts\b2CircleContact.cpp ..\..\Source\Dynamics\Contacts\b2Contact.cpp ..\..\Source\Dynamics\Contacts\b2ContactSolver.cpp ..\..\Source\Dynamics\Contacts\b2PolyAndCircleContact.cpp ..\..\Source\Dynamics\Contacts\b2PolyContact.cpp ..\..\Source\Dynamics\Joints\b2DistanceJoint.cpp ..\..\Source\Dynamics\Joints\b2GearJoint.cpp ..\..\Source\Dynamics\Joints\b2Joint.cpp ..\..\Source\Dynamics\Joints\b2MouseJoint.cpp ..\..\Source\Dynamics\Joints\b2PrismaticJoint.cpp ..\..\Source\Dynamics\Joints\b2PulleyJoint.cpp ..\..\Source\Dynamics\Joints\b2RevoluteJoint.cpp
+         b2BroadPhase.cpp
+         b2CollideCircle.cpp
+         b2CollidePoly.cpp
+         b2Collision.cpp
+         b2Distance.cpp
+         b2PairManager.cpp
+         b2TimeOfImpact.cpp
+         b2CircleShape.cpp
+         b2PolygonShape.cpp
+         b2Shape.cpp
+         b2BlockAllocator.cpp
+         b2Math.cpp
+         b2Settings.cpp
+         b2StackAllocator.cpp
+         b2Body.cpp
+         b2ContactManager.cpp
+         b2Island.cpp
+         b2World.cpp
+         b2WorldCallbacks.cpp
+         b2CircleContact.cpp
+         Generating Code...
+         Compiling...
+         b2Contact.cpp
+         b2ContactSolver.cpp
+         b2PolyAndCircleContact.cpp
+         b2PolyContact.cpp
+         b2DistanceJoint.cpp
+         b2GearJoint.cpp
+         b2Joint.cpp
+         b2MouseJoint.cpp
+         b2PrismaticJoint.cpp
+         b2PulleyJoint.cpp
+         b2RevoluteJoint.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"../../Library\box2d.lib" /NOLOGO Box2D/Release\b2BroadPhase.obj
+         Box2D/Release\b2CollideCircle.obj
+         Box2D/Release\b2CollidePoly.obj
+         Box2D/Release\b2Collision.obj
+         Box2D/Release\b2Distance.obj
+         Box2D/Release\b2PairManager.obj
+         Box2D/Release\b2TimeOfImpact.obj
+         Box2D/Release\b2CircleShape.obj
+         Box2D/Release\b2PolygonShape.obj
+         Box2D/Release\b2Shape.obj
+         Box2D/Release\b2BlockAllocator.obj
+         Box2D/Release\b2Math.obj
+         Box2D/Release\b2Settings.obj
+         Box2D/Release\b2StackAllocator.obj
+         Box2D/Release\b2Body.obj
+         Box2D/Release\b2ContactManager.obj
+         Box2D/Release\b2Island.obj
+         Box2D/Release\b2World.obj
+         Box2D/Release\b2WorldCallbacks.obj
+         Box2D/Release\b2CircleContact.obj
+         Box2D/Release\b2Contact.obj
+         Box2D/Release\b2ContactSolver.obj
+         Box2D/Release\b2PolyAndCircleContact.obj
+         Box2D/Release\b2PolyContact.obj
+         Box2D/Release\b2DistanceJoint.obj
+         Box2D/Release\b2GearJoint.obj
+         Box2D/Release\b2Joint.obj
+         Box2D/Release\b2MouseJoint.obj
+         Box2D/Release\b2PrismaticJoint.obj
+         Box2D/Release\b2PulleyJoint.obj
+         Box2D/Release\b2RevoluteJoint.obj
+         Box2D.vcxproj -> \\192.168.1.189\home\Projects\Tentacle Game\External\Box2D\Build\VC8\../../Library\Box2D.lib
+     1>Done Building Project "\\192.168.1.189\home\Projects\Tentacle Game\External\Box2D\Build\VC8\Box2D.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.94

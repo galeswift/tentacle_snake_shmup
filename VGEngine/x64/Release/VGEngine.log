@@ -1,0 +1,138 @@
+﻿Build started 7/21/2016 11:04:52 PM.
+     1>Project "\\192.168.1.189\home\Projects\Tentacle Game\VGEngine\VGEngine.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"\\192.168.1.189\home\Projects\Tentacle Game\x64\Release\VGEngine.exe" /INCREMENTAL /NOLOGO ..\External\SDL\lib\SDL.lib ..\External\SDL\lib\SDLMain.lib ..\External\SDL\lib\SDL_Image.lib ..\External\SDL\lib\SDL_ttf.lib ..\External\SDL\lib\SDL_Mixer.lib ..\External\SDL\lib\sdlgfx.lib ..\External\Box2d\library\box2d.lib ..\External\Glew\lib\glew32.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"\\192.168.1.189\home\Projects\Tentacle Game\x64\Release\VGEngine.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"\\192.168.1.189\home\Projects\Tentacle Game\x64\Release\VGEngine.lib" /MACHINE:X64 x64\Release\Vector2d.obj
+         x64\Release\FuzzyModule.obj
+         x64\Release\FuzzyOperators.obj
+         x64\Release\FuzzySet_LeftShoulder.obj
+         x64\Release\FuzzySet_RightShoulder.obj
+         x64\Release\FuzzySet_Singleton.obj
+         x64\Release\FuzzySet_Triangle.obj
+         x64\Release\FuzzyVariable.obj
+         x64\Release\BaseGameEntity.obj
+         x64\Release\EntityManager.obj
+         x64\Release\FrameCounter.obj
+         x64\Release\iniFileLoaderBase.obj
+         x64\Release\CrudeTimer.obj
+         x64\Release\PrecisionTimer.obj
+         x64\Release\Anchor.obj
+         x64\Release\ChaosObjects.obj
+         x64\Release\ChaosStates.obj
+         x64\Release\ChaosWeapons.obj
+         x64\Release\Constraint.obj
+         x64\Release\Main.obj
+         x64\Release\Point.obj
+         x64\Release\SimpleGame.obj
+         x64\Release\VGCollision.obj
+         x64\Release\VGEngine.obj
+         x64\Release\VGEntities.obj
+         x64\Release\VGPhutils.obj
+         x64\Release\VGPhysics.obj
+         x64\Release\VGRender.obj
+         x64\Release\VGSound.obj
+         x64\Release\VGStates.obj
+         x64\Release\VGText.obj
+         "\\192.168.1.189\home\Projects\Tentacle Game\x64\Release\box2d.lib"
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>box2d.lib(b2Body.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2PolygonShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2World.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2Shape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2BroadPhase.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2Math.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2Settings.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2BlockAllocator.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2StackAllocator.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2TimeOfImpact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2Contact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2ContactManager.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2WorldCallbacks.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2Joint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2Island.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2PulleyJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2CircleShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2PairManager.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2Distance.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2CircleContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2PolyAndCircleContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2PolyContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2DistanceJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2MouseJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2RevoluteJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2PrismaticJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2GearJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2ContactSolver.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2CollideCircle.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>box2d.lib(b2CollidePoly.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in Vector2d.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>VGEngine.obj : error LNK2001: unresolved external symbol __imp___GLEW_VERSION_2_0
+     1>VGEngine.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+     1>VGEngine.obj : error LNK2001: unresolved external symbol Mix_OpenAudio
+     1>VGEngine.obj : error LNK2001: unresolved external symbol SDL_GL_SwapBuffers
+     1>VGEngine.obj : error LNK2001: unresolved external symbol __imp___glewUniform2fv
+     1>VGEngine.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+     1>VGEngine.obj : error LNK2001: unresolved external symbol SDL_Init
+     1>VGEngine.obj : error LNK2001: unresolved external symbol SDL_GetError
+     1>VGEngine.obj : error LNK2001: unresolved external symbol SDL_WM_SetCaption
+     1>VGEngine.obj : error LNK2001: unresolved external symbol SDL_Quit
+     1>VGEngine.obj : error LNK2001: unresolved external symbol SDL_SaveBMP_RW
+     1>VGEngine.obj : error LNK2001: unresolved external symbol Mix_QuerySpec
+     1>VGEngine.obj : error LNK2001: unresolved external symbol SDL_GL_SetAttribute
+     1>VGEngine.obj : error LNK2001: unresolved external symbol SDL_UnlockSurface
+     1>VGEngine.obj : error LNK2001: unresolved external symbol TTF_Init
+     1>VGEngine.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+     1>VGEngine.obj : error LNK2001: unresolved external symbol Mix_CloseAudio
+     1>VGEngine.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+     1>VGEngine.obj : error LNK2001: unresolved external symbol __imp_glewIsSupported
+     1>VGEngine.obj : error LNK2001: unresolved external symbol __imp_filledCircleRGBA
+     1>VGEngine.obj : error LNK2001: unresolved external symbol __imp___glewUniform1fv
+     1>VGEngine.obj : error LNK2001: unresolved external symbol SDL_LockSurface
+     1>VGEngine.obj : error LNK2001: unresolved external symbol SDL_PollEvent
+     1>VGEngine.obj : error LNK2001: unresolved external symbol SDL_GetTicks
+     1>VGEngine.obj : error LNK2001: unresolved external symbol SDL_SetVideoMode
+     1>VGEngine.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+     1>VGEngine.obj : error LNK2001: unresolved external symbol SDL_CreateRGBSurface
+     1>VGEngine.obj : error LNK2001: unresolved external symbol TTF_Quit
+     1>VGEngine.obj : error LNK2001: unresolved external symbol SDL_RWFromFile
+     1>VGEngine.obj : error LNK2001: unresolved external symbol __imp___glewUniform4fv
+     1>VGEngine.obj : error LNK2001: unresolved external symbol __imp_glewInit
+     1>VGEntities.obj : error LNK2001: unresolved external symbol SDL_UpperBlit
+     1>VGEntities.obj : error LNK2001: unresolved external symbol SDL_SetAlpha
+     1>VGEntities.obj : error LNK2001: unresolved external symbol IMG_Load
+     1>VGEntities.obj : error LNK2001: unresolved external symbol SDL_DisplayFormatAlpha
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewGenRenderbuffersEXT
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewBindRenderbufferEXT
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewGenFramebuffersEXT
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewRenderbufferStorageEXT
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewFramebufferTexture2DEXT
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewFramebufferRenderbufferEXT
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewCheckFramebufferStatusEXT
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewBindFramebufferEXT
+     1>VGPhutils.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+     1>VGSound.obj : error LNK2001: unresolved external symbol Mix_FreeMusic
+     1>VGSound.obj : error LNK2001: unresolved external symbol Mix_VolumeMusic
+     1>VGSound.obj : error LNK2001: unresolved external symbol Mix_PlayChannelTimed
+     1>VGSound.obj : error LNK2001: unresolved external symbol Mix_FadeInMusic
+     1>VGSound.obj : error LNK2001: unresolved external symbol Mix_PlayingMusic
+     1>VGSound.obj : error LNK2001: unresolved external symbol Mix_FreeChunk
+     1>VGSound.obj : error LNK2001: unresolved external symbol Mix_LoadMUS
+     1>VGSound.obj : error LNK2001: unresolved external symbol Mix_LoadWAV_RW
+     1>VGSound.obj : error LNK2001: unresolved external symbol Mix_PlayMusic
+     1>VGText.obj : error LNK2001: unresolved external symbol TTF_OpenFont
+     1>VGText.obj : error LNK2001: unresolved external symbol TTF_RenderText_Blended
+     1>MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+     1>\\192.168.1.189\home\Projects\Tentacle Game\x64\Release\VGEngine.exe : fatal error LNK1120: 65 unresolved externals
+     1>Done Building Project "\\192.168.1.189\home\Projects\Tentacle Game\VGEngine\VGEngine.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.10

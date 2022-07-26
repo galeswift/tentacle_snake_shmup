@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7d6be48e-806f-4d03-a4a5-fc17c77c63b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{95f0fc80-5732-449e-9da9-7720e413ec76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{cbb8ee2d-e972-438e-9f8e-0ef7325b180c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\2d">
+      <UniqueIdentifier>{369b54c4-d4bc-44f8-980a-83a916aeebe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Misc">
+      <UniqueIdentifier>{f9a4ccda-3f85-45ae-8b80-25d17ef4d382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\FSM">
+      <UniqueIdentifier>{13cddd05-809a-486d-aa85-5cc239ec0a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\fuzzy">
+      <UniqueIdentifier>{1ff08abb-9a0d-4578-bebb-e881bf87da29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Game">
+      <UniqueIdentifier>{59bae609-0309-4410-8742-543fee0a0eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Goals">
+      <UniqueIdentifier>{efe41852-98d6-467b-a5ea-175fea9c646b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Graph">
+      <UniqueIdentifier>{cf6b563d-3393-4e61-b749-203a5d3c94d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\script">
+      <UniqueIdentifier>{6399f9ac-b6db-478d-9818-6fe907db1886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Time">
+      <UniqueIdentifier>{358405d0-c5df-410f-a9f9-57e7537f1fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Triggers">
+      <UniqueIdentifier>{8a3d8277-89ce-4b85-ba46-267695fef01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SimpleGame">
+      <UniqueIdentifier>{c731beda-bb65-4a6d-9fc4-27ba7cdccad8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\VGCollision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\VGEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\VGEntities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\VGGlobals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\VGPhutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\VGPhysics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\VGRender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\VGShaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\VGStates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\VGStorageClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Anchor.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Constraint.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Point.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\2D\C2DMatrix.h">
+      <Filter>Common\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\2D\geometry.h">
+      <Filter>Common\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\2D\InvertedAABBox2D.h">
+      <Filter>Common\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\2D\Transformations.h">
+      <Filter>Common\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\2D\Vector2D.h">
+      <Filter>Common\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\2D\Wall2D.h">
+      <Filter>Common\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\2D\WallIntersectionTests.h">
+      <Filter>Common\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Misc\autolist.h">
+      <Filter>Common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Misc\CellSpacePartition.h">
+      <Filter>Common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Misc\ConsoleUtils.h">
+      <Filter>Common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Misc\FrameCounter.h">
+      <Filter>Common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Misc\iniFileLoaderBase.h">
+      <Filter>Common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Misc\PriorityQueue.h">
+      <Filter>Common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Misc\Smoother.h">
+      <Filter>Common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Misc\Stream_Utility_Functions.h">
+      <Filter>Common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Misc\TypeToString.h">
+      <Filter>Common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Misc\utils.h">
+      <Filter>Common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\FSM\State.h">
+      <Filter>Common\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\FSM\StateMachine.h">
+      <Filter>Common\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\fuzzy\FuzzyHedges.h">
+      <Filter>Common\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\fuzzy\FuzzyModule.h">
+      <Filter>Common\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\fuzzy\FuzzyOperators.h">
+      <Filter>Common\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\fuzzy\FuzzyRule.h">
+      <Filter>Common\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\fuzzy\FuzzySet.h">
+      <Filter>Common\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\fuzzy\FuzzySet_LeftShoulder.h">
+      <Filter>Common\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\fuzzy\FuzzySet_RightShoulder.h">
+      <Filter>Common\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\fuzzy\FuzzySet_Shoulder.h">
+      <Filter>Common\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\fuzzy\FuzzySet_Singleton.h">
+      <Filter>Common\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\fuzzy\FuzzySet_Triangle.h">
+      <Filter>Common\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\fuzzy\FuzzyTerm.h">
+      <Filter>Common\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\fuzzy\FuzzyVariable.h">
+      <Filter>Common\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\fuzzy\FzSet.h">
+      <Filter>Common\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Game\BaseGameEntity.h">
+      <Filter>Common\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Game\EntityFunctionTemplates.h">
+      <Filter>Common\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Game\EntityManager.h">
+      <Filter>Common\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Game\MovingEntity.h">
+      <Filter>Common\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Game\Region.h">
+      <Filter>Common\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Goals\Goal.h">
+      <Filter>Common\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Goals\Goal_Composite.h">
+      <Filter>Common\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Graph\AStarHeuristicPolicies.h">
+      <Filter>Common\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Graph\GraphAlgorithms.h">
+      <Filter>Common\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Graph\GraphEdgeTypes.h">
+      <Filter>Common\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Graph\GraphNodeTypes.h">
+      <Filter>Common\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Graph\HandyGraphFunctions.h">
+      <Filter>Common\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Graph\NodeTypeEnumerations.h">
+      <Filter>Common\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Graph\SparseGraph.h">
+      <Filter>Common\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\script\Scriptor.h">
+      <Filter>Common\script</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Time\CrudeTimer.h">
+      <Filter>Common\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Time\PrecisionTimer.h">
+      <Filter>Common\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Time\Regulator.h">
+      <Filter>Common\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Triggers\Trigger.h">
+      <Filter>Common\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Triggers\Trigger_LimitedLifeTime.h">
+      <Filter>Common\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Triggers\Trigger_Respawning.h">
+      <Filter>Common\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Triggers\TriggerRegion.h">
+      <Filter>Common\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Triggers\TriggerSystem.h">
+      <Filter>Common\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\SimpleGame.h">
+      <Filter>SimpleGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\ChaosGlobals.h" />
+    <ClInclude Include="Inc\ChaosObjects.h" />
+    <ClInclude Include="Inc\ChaosStates.h" />
+    <ClInclude Include="Inc\ChaosWeapons.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Anchor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Constraint.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Point.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\VGCollision.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\VGEngine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\VGEntities.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\VGPhutils.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\VGPhysics.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\VGRender.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\VGSound.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\VGStates.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\VGText.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\2D\Vector2d.cpp">
+      <Filter>Common\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Misc\FrameCounter.cpp">
+      <Filter>Common\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Misc\iniFileLoaderBase.cpp">
+      <Filter>Common\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\fuzzy\FuzzyModule.cpp">
+      <Filter>Common\fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\fuzzy\FuzzyOperators.cpp">
+      <Filter>Common\fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\fuzzy\FuzzySet_LeftShoulder.cpp">
+      <Filter>Common\fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\fuzzy\FuzzySet_RightShoulder.cpp">
+      <Filter>Common\fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\fuzzy\FuzzySet_Singleton.cpp">
+      <Filter>Common\fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\fuzzy\FuzzySet_Triangle.cpp">
+      <Filter>Common\fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\fuzzy\FuzzyVariable.cpp">
+      <Filter>Common\fuzzy</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Game\BaseGameEntity.cpp">
+      <Filter>Common\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Game\EntityManager.cpp">
+      <Filter>Common\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Time\CrudeTimer.cpp">
+      <Filter>Common\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Time\PrecisionTimer.cpp">
+      <Filter>Common\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>SimpleGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SimpleGame.cpp">
+      <Filter>SimpleGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ChaosObjects.cpp" />
+    <ClCompile Include="Src\ChaosStates.cpp" />
+    <ClCompile Include="Src\ChaosWeapons.cpp" />
+  </ItemGroup>
+</Project>
